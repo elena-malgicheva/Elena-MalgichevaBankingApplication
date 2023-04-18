@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Elena-MalgichevaBankingApplication/static/css/main.f63f427f.css",
-    "main.js": "/Elena-MalgichevaBankingApplication/static/js/main.a5dfe68f.js",
+    "main.js": "/Elena-MalgichevaBankingApplication/static/js/main.962a900b.js",
     "static/media/back_transp.png": "/Elena-MalgichevaBankingApplication/static/media/back_transp.245f900bb5bda4c5aa3c.png",
     "index.html": "/Elena-MalgichevaBankingApplication/index.html",
     "main.f63f427f.css.map": "/Elena-MalgichevaBankingApplication/static/css/main.f63f427f.css.map",
-    "main.a5dfe68f.js.map": "/Elena-MalgichevaBankingApplication/static/js/main.a5dfe68f.js.map"
+    "main.962a900b.js.map": "/Elena-MalgichevaBankingApplication/static/js/main.962a900b.js.map"
   },
   "entrypoints": [
     "static/css/main.f63f427f.css",
-    "static/js/main.a5dfe68f.js"
+    "static/js/main.962a900b.js"
   ]
 }

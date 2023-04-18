@@ -21,11 +21,11 @@ function App() {
       <BalanceProvider>
           <AppNavbar/>
           <Routes>
-            <Route path="welcome" element={ <Home/> } />
-            <Route path="register" element={ <Register/> } />
-            <Route path="deposit" element={ <Deposit/> } />
-            <Route path="withdraw" element={ <Withdraw/> } />
-            <Route path="alldata" element={ <Alldata/> } />
+            <Route path="Elena-MalgichevaBankingApplication/welcome" element={ <Home/> } />
+            <Route path="Elena-MalgichevaBankingApplication/register" element={ <Register/> } />
+            <Route path="Elena-MalgichevaBankingApplication/deposit" element={ <Deposit/> } />
+            <Route path="Elena-MalgichevaBankingApplication/withdraw" element={ <Withdraw/> } />
+            <Route path="Elena-MalgichevaBankingApplication/alldata" element={ <Alldata/> } />
             
           </Routes>
           <Foot />

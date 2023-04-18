@@ -19,7 +19,7 @@ function AppNavbar() {
      <Navbar>     
       <Navbar.Brand className='justify-start p-1'>
         <Nav.Link >
-        <NavLink className={(navData) => navData.isActive ?  NavLogoClasses +' active' : NavLogoClasses } to="">
+        <NavLink className={(navData) => navData.isActive ?  NavLogoClasses +' active' : NavLogoClasses } to="Elena-MalgichevaBankingApplication/welcome">
           <TbMoodDollar className='icon' />
           Good Bank
         </NavLink>
@@ -29,10 +29,10 @@ function AppNavbar() {
       <Navbar.Toggle />
         
       <Navbar.Collapse className="justify-content-end">
-        <NavLink className={(navData) => navData.isActive ?  NavLinkClasses +' active' : NavLinkClasses } to="register"><RiUserAddFill className='icon' /> CREATE ACCOUNT</NavLink>
-        <NavLink className={(navData) => navData.isActive ?  NavLinkClasses +' active' : NavLinkClasses } to="deposit" ><FaPiggyBank className='icon' /> DEPOSIT</NavLink>
-        <NavLink className={(navData) => navData.isActive ?  NavLinkClasses +' active' : NavLinkClasses } to="withdraw"><RiMoneyDollarCircleFill className='icon' /> WITHDRAW</NavLink>
-        <NavLink className={(navData) => navData.isActive ?  NavLinkClasses +' active' : NavLinkClasses } to="alldata"><BsCardList className='icon' /> ALL DATA</NavLink>
+        <NavLink className={(navData) => navData.isActive ?  NavLinkClasses +' active' : NavLinkClasses } to="Elena-MalgichevaBankingApplication/register"><RiUserAddFill className='icon' /> CREATE ACCOUNT</NavLink>
+        <NavLink className={(navData) => navData.isActive ?  NavLinkClasses +' active' : NavLinkClasses } to="Elena-MalgichevaBankingApplication/deposit" ><FaPiggyBank className='icon' /> DEPOSIT</NavLink>
+        <NavLink className={(navData) => navData.isActive ?  NavLinkClasses +' active' : NavLinkClasses } to="Elena-MalgichevaBankingApplication/withdraw"><RiMoneyDollarCircleFill className='icon' /> WITHDRAW</NavLink>
+        <NavLink className={(navData) => navData.isActive ?  NavLinkClasses +' active' : NavLinkClasses } to="Elena-MalgichevaBankingApplication/alldata"><BsCardList className='icon' /> ALL DATA</NavLink>
       </Navbar.Collapse> 
        
      </Navbar>
